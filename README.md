@@ -1,7 +1,4 @@
 # ORION Framework for Open-World Interactive Personalized Robot Navigation
-
-Existing object navigation often neglect the multi-round interactive language communication between human and robots and only focus on class-level object goal rather than instance-level object goal that contains personalized information. 
-
 We propsoe a general framework for Open-woRld Interactive persOnalized Navigation (ORION) that uses Large Language Models (LLMs) to make sequential decisions to manipulate different modules. 
 
 ![framework](./framework.png)
