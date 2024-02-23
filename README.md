@@ -60,15 +60,24 @@ python setup.py develop
 Build a `data` directory in the project main directory. The structure of the data folder should be as follows:
 ```
 .
-├── datasets            # soft link to habitat-lab/data/
-|   └── objectnav_hm3d_v2
-├── experiments         # experment results save_dir
-|── pretrained_ckpts    # pretrained model checkpoints
-│   ├── groundingdino_swint_ogc.pth
-│   ├── lseg_demo_e200.ckpt
-│   └── sam_vit_h_4b8939.pth
-└── scene_datasets      # soft link to habitat-lab/data/scene_datasets
-    └── hm3d_v0.2
+├── data
+│   ├── datasets                  # soft link to habitat-lab/data/
+│   │   └── objectnav_hm3d_v2
+│   ├── experiments               # experment results save_dir
+│   ├── pretrained_ckpts          # pretrained model checkpoints
+│   │   ├── groundingdino_swint_ogc.pth
+│   │   ├── lseg_demo_e200.ckpt
+│   │   └── sam_vit_h_4b8939.pth
+│   └── scene_datasets            # soft link to habitat-lab/data/scene_datasets
+│       └── hm3d_v0.2
+├── demos
+├── orion
+├── README.md
+├── requirements.txt
+├── scripts
+├── setup.py
+├── tests
+└── third_party
 ```
 ### Habitat Data
 We use (Habitat HM3D dataset)[https://github.com/matterport/habitat-matterport-3dresearch]. Please apply through the website for permission.
