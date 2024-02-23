@@ -1,0 +1,117 @@
+{
+  "room_info": {
+    "bedroom": "shared",
+    "bathroom": "Alice|Bob",
+    "living room": "shared"
+  },
+  "chair_5": {
+    "base": "{\"center\": [379, 236], \"mass\": 30.5}",
+    "nearby_obj": "table_4",
+    "object_desc": "for haircut and makeup|in dressing room",
+    "attr": null,
+    "room_id": "bedroom_1",
+    "explain": "a furniture seat with backrest and legs for one person",
+    "type": "ambiguous",
+    "same_goal": "chair_5"
+  },
+  "table_4": {
+    "base": "{\"center\": [387, 234], \"mass\": 132.5}",
+    "nearby_obj": "chair_5",
+    "object_desc": "mirror on the table|with small light bulbs",
+    "attr": "bought from Pottery Barn",
+    "room_id": "bedroom_1",
+    "explain": "a flat surface supported by legs",
+    "type": "ambiguous",
+    "same_goal": "table_4"
+  },
+  "bed_0": {
+    "base": "{\"center\": [410, 297], \"mass\": 1907.0}",
+    "nearby_obj": "chair_2|sofa_1",
+    "object_desc": "with bed tables on both sides",
+    "attr": "bought from IKEA at 2019",
+    "room_id": "bedroom_1",
+    "explain": "a furniture for sleeping with sheets and mattress.",
+    "type": "big",
+    "same_goal": "bed_0"
+  },
+  "chair_2": {
+    "base": "{\"center\": [384, 338], \"mass\": 90.5}",
+    "nearby_obj": "bed_0|tv_1|sofa_1|telephone_0|desk_0",
+    "object_desc": "yellow bedroom chair",
+    "attr": "bought from CB2 at 1980",
+    "room_id": "bedroom_1",
+    "explain": "a furniture seat with backrest and legs for one person",
+    "type": "ambiguous",
+    "same_goal": "chair_2"
+  },
+  "desk_0": {
+    "base": "{\"center\": [369, 329], \"mass\": 491.0}",
+    "nearby_obj": "sofa_1|chair_2|telephone_0|tv_1",
+    "object_desc": "long white ceramic platform",
+    "attr": "bought from Wayfair 10 years ago",
+    "room_id": "bedroom_1",
+    "explain": "a table used for working or writing with storage drawers.",
+    "type": "big",
+    "same_goal": "desk_0"
+  },
+  "telephone_0": {
+    "base": "{\"center\": [374, 349], \"mass\": 20.5}",
+    "nearby_obj": "tv_1|chair_2|desk_0",
+    "object_desc": "fixed landline dialing|black color",
+    "attr": null,
+    "room_id": "bedroom_1",
+    "explain": "a device on the table for long-distance voice communication",
+    "type": "small",
+    "same_goal": "telephone_0"
+  },
+  "chair_0": {
+    "base": "{\"center\": [333, 379], \"mass\": 207.5}",
+    "nearby_obj": "table_0",
+    "object_desc": "multiple chairs for dining",
+    "attr": null,
+    "room_id": "living room_1",
+    "explain": "a furniture seat with backrest and legs for one person",
+    "type": "ambiguous",
+    "same_goal": "chair_0|chair_1|chair_3|chair_4"
+  },
+  "table_0": {
+    "base": "{\"center\": [327, 369], \"mass\": 707.5}",
+    "nearby_obj": "chair_0",
+    "object_desc": "dining table with dining chairs",
+    "attr": null,
+    "room_id": "living room_1",
+    "explain": "a flat surface supported by legs",
+    "type": "ambiguous",
+    "same_goal": "table_0"
+  },
+  "table_1": {
+    "base": "{\"center\": [247, 409], \"mass\": 495.5}",
+    "nearby_obj": "tv_0|sofa_0",
+    "object_desc": "near a tv stand|low height",
+    "attr": "bought from Amazon",
+    "room_id": "living room_1",
+    "explain": "a flat surface supported by legs",
+    "type": "ambiguous",
+    "same_goal": "table_1|table_2|desk_1"
+  },
+  "toilet_0": {
+    "base": "{\"center\": [215, 284], \"mass\": 113.5}",
+    "nearby_obj": "washbasin counter_0",
+    "object_desc": "",
+    "attr": null,
+    "room_id": "bathroom_1",
+    "explain": "a plumbing fixture on the floor for human waste disposal",
+    "type": "big",
+    "same_goal": "toilet_0"
+  },
+  "bathtub_0": {
+    "base": "{\"center\": [298, 252], \"mass\": 567.0}",
+    "nearby_obj": "",
+    "object_desc": "small ellipse shape",
+    "attr": null,
+    "room_id": "bathroom_2",
+    "explain": "a container for bathing.",
+    "type": "big",
+    "same_goal": "bathtub_0"
+  }
+}

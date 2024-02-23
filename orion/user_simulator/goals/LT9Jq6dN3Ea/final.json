@@ -1,0 +1,118 @@
+{
+  "room_info": {
+    "bathroom": "shared",
+    "kitchen": "shared",
+    "living room": "shared",
+    "reading room": "Alice"
+  },
+  "table_0": {
+    "base": "{\"center\": [288, 242], \"mass\": 600.5}",
+    "nearby_obj": "couch_0|chair_0",
+    "object_desc": "",
+    "attr": "special designed by IKEA",
+    "room_id": "living room_1",
+    "explain": "a flat surface supported by legs",
+    "type": "ambiguous",
+    "same_goal": "table_0|table_1|table_2|table_3|table_4"
+  },
+  "couch_0": {
+    "base": "{\"center\": [247, 253], \"mass\": 642.0}",
+    "nearby_obj": "table_0|chair_0",
+    "object_desc": "near a tall landing lamp|facing the fireplace and tv",
+    "attr": "bought from Amazon",
+    "room_id": null,
+    "explain": "a sofa with long upholstered seat for multiple people",
+    "type": "big",
+    "same_goal": "couch_0|couch_1|couch_2"
+  },
+  "tv_0": {
+    "base": "{\"center\": [279, 202], \"mass\": 75.0}",
+    "nearby_obj": "fireplace_0",
+    "object_desc": "",
+    "attr": null,
+    "room_id": "living room_1",
+    "explain": "a black monitor for television broadcasts.",
+    "type": "big",
+    "same_goal": "tv_0"
+  },
+  "fireplace_0": {
+    "base": "{\"center\": [277, 194], \"mass\": 108.5}",
+    "nearby_obj": "tv_0",
+    "object_desc": "",
+    "attr": null,
+    "room_id": "living room_1",
+    "explain": "a structure with fire for heating",
+    "type": "small",
+    "same_goal": "fireplace_0"
+  },
+  "stool_0": {
+    "base": "{\"center\": [313, 384], \"mass\": 68.5}",
+    "nearby_obj": "",
+    "object_desc": "high-leg stools",
+    "attr": null,
+    "room_id": "kitchen_1",
+    "explain": "a small backless seat for seating",
+    "type": "small",
+    "same_goal": "stool_0|stool_1"
+  },
+  "dining table_0": {
+    "base": "{\"center\": [294, 342], \"mass\": 260.5}",
+    "nearby_obj": "dining chair_0",
+    "object_desc": "with white flower bunch on it",
+    "attr": "elegant classic design",
+    "room_id": "kitchen_1",
+    "explain": "table for dining",
+    "type": "ambiguous",
+    "same_goal": "dining table_0|dining table_1"
+  },
+  "bathroom cabinet_0": {
+    "base": "{\"center\": [382, 258], \"mass\": 43.5}",
+    "nearby_obj": "toilet_0",
+    "object_desc": "blue storage unit for towels",
+    "attr": null,
+    "room_id": "bathroom_1",
+    "explain": "a storage wardrobe for bathroom essentials",
+    "type": "small",
+    "same_goal": "bathroom cabinet_0"
+  },
+  "toilet_0": {
+    "base": "{\"center\": [384, 270], \"mass\": 98.5}",
+    "nearby_obj": "bathroom cabinet_0",
+    "object_desc": "",
+    "attr": null,
+    "room_id": "bathroom_1",
+    "explain": "a plumbing fixture on the floor for human waste disposal",
+    "type": "small",
+    "same_goal": "toilet_0"
+  },
+  "desk_0": {
+    "base": "{\"center\": [384, 198], \"mass\": 661.5}",
+    "nearby_obj": "rack_0|chair_3|desk chair_0",
+    "object_desc": "large yellow desk for home reading|with books and teapot on it",
+    "attr": "",
+    "room_id": "reading room_1",
+    "explain": "a table used for working or writing with storage drawers.",
+    "type": "big",
+    "same_goal": "desk_0"
+  },
+  "rack_0": {
+    "base": "{\"center\": [357, 205], \"mass\": 219.5}",
+    "nearby_obj": "desk_0|desk chair_0",
+    "object_desc": "a shelf placed many artifacts" ,
+    "attr": null,
+    "room_id": "reading room_1",
+    "explain": "a structure used for holding or displaying items.",
+    "type": "ambiguous",
+    "same_goal": "rack_0"
+  },
+  "rack_1": {
+    "base": "{\"center\": [449, 396], \"mass\": 96.5}",
+    "nearby_obj": "",
+    "object_desc": "white open shelf for clothes",
+    "attr": "bought from Walmart",
+    "room_id": null,
+    "explain": "a structure used for holding or displaying items.",
+    "type": "ambiguous",
+    "same_goal": "rack_1"
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "room_info": {
+    "bedroom": "shared",
+    "bathroom": "shared",
+    "living room": "shared"
+  },
+  "chair_0": {
+    "base": "{\"center\": [284, 300], \"mass\": 134.5}",
+    "nearby_obj": "plant_0|printer_0|couch_1|computer desk_0",
+    "object_desc": "mid-back computer desk chair",
+    "attr": "Amazon basics classic puresoft",
+    "room_id": "living room_1",
+    "explain": "a chair paired with computer desk",
+    "type": "ambiguous",
+    "same_goal": "chair_0"
+  },
+  "chair_1": {
+    "base": "{\"center\": [276, 337], \"mass\": 124.0}",
+    "nearby_obj": "printer_0|computer desk_0",
+    "object_desc": "portable camping chair|colorful low-height",
+    "attr": null,
+    "room_id": "living room_1",
+    "explain": "small chair for children use",
+    "type": "ambiguous",
+    "same_goal": "chair_1"
+  },
+  "table_0": {
+    "base": "{\"center\": [345, 279], \"mass\": 67.0}",
+    "nearby_obj": "couch_1",
+    "object_desc": "small stool table|putting newspaper",
+    "attr": null,
+    "room_id": "living room_1",
+    "explain": "table stool",
+    "type": "small",
+    "same_goal": "table_0"
+  },
+  "newspaper_0": {
+    "base": "{\"center\": [339, 278], \"mass\": 34.5}",
+    "nearby_obj": "table_0",
+    "object_desc": "newspaper on the table|New York Times paper",
+    "attr": null,
+    "room_id": "living room_1",
+    "explain": "paper for reading",
+    "type": "small",
+    "same_goal": "newspaper_0"
+  },
+  "couch_0": {
+    "base": "{\"center\": [348, 317], \"mass\": 1161.5}",
+    "nearby_obj": "table_0|bicycle_0|wardrobe_2",
+    "object_desc": "has plush toys",
+    "attr": "bought from Walmart at 2020",
+    "room_id": "living room_1",
+    "explain": "a sofa with long upholstered seat for multiple people",
+    "type": "ambiguous",
+    "same_goal": "couch_0"
+  },
+  "couch_1": {
+    "base": "{\"center\": [302, 281], \"mass\": 417.5}",
+    "nearby_obj": "computer desk_0|table_0|chair_0|plant_0",
+    "object_desc": "covered by blanket and bag",
+    "attr": "bought from IKEA",
+    "room_id": "living room_1",
+    "explain": "a sofa with long upholstered seat for multiple people",
+    "type": "ambiguous",
+    "same_goal": "couch_1|couch_2"
+  },
+  "bicycle_0": {
+    "base": "{\"center\": [370, 326], \"mass\": 473.5}",
+    "nearby_obj": "couch_0",
+    "object_desc": "indoor cycling bike",
+    "attr": "bought from Home Cardio Gym",
+    "room_id": "living room_1",
+    "explain": "an exercise bike",
+    "type": "big",
+    "same_goal": "bicycle_0"
+  },
+  "computer desk_0": {
+    "base": "{\"center\": [275, 306], \"mass\": 178.5}",
+    "nearby_obj": "couch_1|plant_0|chair_0|printer_0",
+    "object_desc": "",
+    "attr": "bought from Pottery Barn",
+    "room_id": "living room_1",
+    "explain": "table for putting the devices like computer",
+    "type": "big",
+    "same_goal": "computer desk_0"
+  },
+  "printer_0": {
+    "base": "{\"center\": [271, 315], \"mass\": 54.0}",
+    "nearby_obj": "chair_0|computer desk_0",
+    "object_desc": "printer on the table",
+    "attr": null,
+    "room_id": "living room_1",
+    "explain": "a device that produces document copies",
+    "type": "small",
+    "same_goal": "printer_0"
+  },
+  "plant_0": {
+    "base": "{\"center\": [279, 276], \"mass\": 101.5}",
+    "nearby_obj": "chair_0|computer desk_0|couch_1",
+    "object_desc": "green plant to decorate the room",
+    "attr": null,
+    "room_id": "living room_1",
+    "explain": "a plant with green leaves and roots for decoration",
+    "type": "big",
+    "same_goal": "plant_0"
+  },
+  "wardrobe_0": {
+    "base": "{\"center\": [380, 406], \"mass\": 185.0}",
+    "nearby_obj": "tv_0",
+    "object_desc": "rustic brown|face to bed",
+    "attr": "Superjare TV stand",
+    "room_id": "bedroom_1",
+    "explain": "a table to put TV on",
+    "type": "ambiguous",
+    "same_goal": "wardrobe_0"
+  },
+  "wardrobe_1": {
+    "base": "{\"center\": [302, 347], \"mass\": 144.5}",
+    "nearby_obj": "wardrobe_2|chair_1",
+    "object_desc": "open shelf wardrobe|putting books and box",
+    "attr": "bought from Castlery",
+    "room_id": "living room_1",
+    "explain": "a large cabinet for storing clothes and other items.",
+    "type": "ambiguous",
+    "same_goal": "wardrobe_1"
+  },
+  "wardrobe_2": {
+    "base": "{\"center\": [327, 343], \"mass\": 83.5}",
+    "nearby_obj": "wardrobe_1|couch_0",
+    "object_desc": "has mirror",
+    "attr": "Elite 2-door",
+    "room_id": "living room_1",
+    "explain": "cabient with door for putting clothes",
+    "type": "ambiguous",
+    "same_goal": "wardrobe_2"
+  },
+  "wardrobe_3": {
+    "base": "{\"center\": [399, 370], \"mass\": 50.0}",
+    "nearby_obj": "bed_0",
+    "object_desc": "putting clothes",
+    "attr": "bought from MoMA Design Store",
+    "room_id": "bedroom_1",
+    "explain": "a large cabinet for storing clothes and other items.",
+    "type": "ambiguous",
+    "same_goal": "wardrobe_3"
+  },
+  "bed_0": {
+    "base": "{\"center\": [419, 409], \"mass\": 851.0}",
+    "nearby_obj": "nightstand_0|tv_0",
+    "object_desc": "has a frame and mattress",
+    "attr": "bought from Amazon",
+    "room_id": "bedroom_1",
+    "explain": "a furniture for sleeping with sheets and mattress.",
+    "type": "big",
+    "same_goal": "bed_0"
+  },
+  "tv_0": {
+    "base": "{\"center\": [373, 407], \"mass\": 94.5}",
+    "nearby_obj": "wardrobe_0",
+    "object_desc": "",
+    "attr": null,
+    "room_id": "bedroom_1",
+    "explain": "a black monitor for television broadcasts.",
+    "type": "big",
+    "same_goal": "tv_0"
+  },
+  "nightstand_0": {
+    "base": "{\"center\": [439, 437], \"mass\": 125.5}",
+    "nearby_obj": "bed_0",
+    "object_desc": "made of mahaogany",
+    "attr": "bought from CB2",
+    "room_id": "bedroom_1",
+    "explain": "a table near the bed",
+    "type": "small",
+    "same_goal": "nightstand_0|nightstand_1"
+  },
+  "toilet_0": {
+    "base": "{\"center\": [441, 301], \"mass\": 15.5}",
+    "nearby_obj": "cabinet_0",
+    "object_desc": "like white bowl",
+    "attr": null,
+    "room_id": "bathroom_1",
+    "explain": "a plumbing fixture on the floor for human waste disposal",
+    "type": "small",
+    "same_goal": "toilet_0"
+  },
+  "cabinet_0": {
+    "base": "{\"center\": [444, 329], \"mass\": 255.5}",
+    "nearby_obj": "toilet_0",
+    "object_desc": "for washroom use",
+    "attr": "",
+    "room_id": "bathroom_1",
+    "explain": "a table supports the washbasin",
+    "type": "big",
+    "same_goal": "cabinet_0"
+  }
+}

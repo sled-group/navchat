@@ -1,0 +1,108 @@
+{
+  "room_info": {
+    "bedroom": "Alice|Bob|Tony",
+    "bathroom": "Bob|shared",
+    "kitchen": "shared",
+    "living room": "shared"
+  },
+  "sofa_0": {
+    "base": "{\"center\": [228, 393], \"mass\": 932.5}",
+    "nearby_obj": "coffee table_0",
+    "object_desc": "l-shaped sofa with grey cushions",
+    "attr": "bought from Walmart",
+    "room_id": "living room_1",
+    "explain": "a couch with long upholstered seat for multiple people",
+    "type": "big",
+    "same_goal": "sofa_0"
+  },
+  "bed_1": {
+    "base": "{\"center\": [438, 297], \"mass\": 1206.5}",
+    "nearby_obj": "lamp_1|nightstand_3",
+    "object_desc": "a bed with red pillow",
+    "attr": null,
+    "room_id": "bedroom_1",
+    "explain": "a furniture for sleeping with sheets and mattress.",
+    "type": "ambiguous",
+    "same_goal": "bed_1"
+  },
+  "lamp_1": {
+    "base": "{\"center\": [449, 268], \"mass\": 70.0}",
+    "nearby_obj": "bed_1|nightstand_3",
+    "object_desc": "light lamp with square fabric shade",
+    "attr": null,
+    "room_id": "bedroom_1",
+    "explain": "a light source with shade",
+    "type": "ambiguous",
+    "same_goal": "lamp_1|lamp_2"
+  },
+  "nightstand_3": {
+    "base": "{\"center\": [445, 265], \"mass\": 34.5}",
+    "nearby_obj": "bed_1|lamp_1",
+    "object_desc": "red wood material",
+    "attr": "bought from IKEA",
+    "room_id": "bedroom_1",
+    "explain": "a table near the bed",
+    "type": "ambiguous",
+    "same_goal": "nightstand_3|nightstand_0"
+  },
+  "bed_0": {
+    "base": "{\"center\": [518, 251], \"mass\": 1924.5}",
+    "nearby_obj": "lamp_0|nightstand_1",
+    "object_desc": "a bed with a black stool to step on",
+    "attr": null,
+    "room_id": "bedroom_2",
+    "explain": "a furniture for sleeping with sheets and mattress.",
+    "type": "ambiguous",
+    "same_goal": "bed_0"
+  },
+  "lamp_0": {
+    "base": "{\"center\": [524, 219], \"mass\": 75.5}",
+    "nearby_obj": "bed_0|nightstand_1",
+    "object_desc": "",
+    "attr": "ROOTRO touch bedside table lamp",
+    "room_id": "bedroom_2",
+    "explain": "the light put beside the bed",
+    "type": "ambiguous",
+    "same_goal": "lamp_0|lamp_3"
+  },
+  "nightstand_1": {
+    "base": "{\"center\": [519, 217], \"mass\": 47.5}",
+    "nearby_obj": "bed_0|lamp_0",
+    "object_desc": "brown table with drawers",
+    "attr": null,
+    "room_id": "bedroom_2",
+    "explain": "a table near the bed",
+    "type": "ambiguous",
+    "same_goal": "nightstand_1|nightstand_2"
+  },
+  "bed_2": {
+    "base": "{\"center\": [336, 320], \"mass\": 694.0}",
+    "nearby_obj": "",
+    "object_desc": "colorful sheets|across the laundry room|with white frames to protect the baby",
+    "attr": null,
+    "room_id": "bedroom_3",
+    "explain": "a furniture for sleeping with sheets and mattress.",
+    "type": "ambiguous",
+    "same_goal": "bed_2"
+  },
+  "microwave_0": {
+    "base": "{\"center\": [314, 257], \"mass\": 136.0}",
+    "nearby_obj": "kitchen cabinet_0|kitchen counter_0",
+    "object_desc": "holding on the shelf",
+    "attr": null,
+    "room_id": "kitchen_1",
+    "explain": "a kitchen appliance used for heating food quickly.",
+    "type": "small",
+    "same_goal": "microwave_0"
+  },
+  "kitchen counter_0": {
+    "base": "{\"center\": [265, 284], \"mass\": 1407.0}",
+    "nearby_obj": "refrigerator_0|kitchen cabinet_0|microwave_0",
+    "object_desc": "large fireproof countertop",
+    "attr": "bought from IKEA",
+    "room_id": "kitchen_1",
+    "explain": "a flat surface for food preparation",
+    "type": "small",
+    "same_goal": "kitchen counter_0"
+  }
+}

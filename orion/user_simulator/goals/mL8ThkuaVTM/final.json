@@ -1,0 +1,96 @@
+{
+  "room_info": {
+    "kitchen": "shared",
+    "living room": "shared"
+  },
+  "chair_0": {
+    "base": "{\"center\": [319, 206], \"mass\": 134.5}",
+    "nearby_obj": "kitchen cabinet_0|refrigerator_0|table_0",
+    "object_desc": "a set of 4 chairs",
+    "attr": "bought from Castlery 20 years ago",
+    "room_id": "living room_1",
+    "explain": "a furniture seat with backrest and legs for one person",
+    "type": "big",
+    "same_goal": "chair_0|chair_1|chair_2|chair_3"
+  },
+  "table_0": {
+    "base": "{\"center\": [330, 211], \"mass\": 311.5}",
+    "nearby_obj": "chair_0",
+    "object_desc": "dining table surrounded with Castlery chairs",
+    "attr": "bought from Walmart",
+    "room_id": "living room_1",
+    "explain": "a flat surface supported by legs",
+    "type": "ambiguous",
+    "same_goal": "table_0|table_1"
+  },
+  "couch_0": {
+    "base": "{\"center\": [300, 170], \"mass\": 1145.5}",
+    "nearby_obj": "led tv_0|chair_0|coffee table_0",
+    "object_desc": "l-shaped long couch",
+    "attr": null,
+    "room_id": "living room_1",
+    "explain": "a sofa with long upholstered seat for multiple people",
+    "type": "big",
+    "same_goal": "couch_0"
+  },
+  "led tv_0": {
+    "base": "{\"center\": [264, 175], \"mass\": 38.0}",
+    "nearby_obj": "couch_0|coffee table_0",
+    "object_desc": "Samsung television",
+    "attr": null,
+    "room_id": null,
+    "explain": "a light emitting diode television",
+    "type": "big",
+    "same_goal": "led tv_0"
+  },
+  "fireplace_0": {
+    "base": "{\"center\": [261, 209], \"mass\": 172.0}",
+    "nearby_obj": "coffee table_0|led tv_0",
+    "object_desc": "has a long steel pipe|beneath a clock",
+    "attr": "bought from Pottery Barn 5 uears ago",
+    "room_id": "living room_1",
+    "explain": "a structure with fire for heating",
+    "type": "big",
+    "same_goal": "fireplace_0|firewood holder_0"
+  },
+  "coffee table_0": {
+    "base": "{\"center\": [279, 176], \"mass\": 244.5}",
+    "nearby_obj": "fireplace_0|led tv_0|couch_0",
+    "object_desc": "low-lying table|decorated with a green plant",
+    "attr": "Maiden Home",
+    "room_id": "living room_1",
+    "explain": "a low table placed around sofa",
+    "type": "ambiguous",
+    "same_goal": "coffee table_0|coffee table_1"
+  },
+  "kitchen cabinet_0": {
+    "base": "{\"center\": [319, 265], \"mass\": 955.0}",
+    "nearby_obj": "table_0|chair_0|refrigerator_0|oven_0",
+    "object_desc": "",
+    "attr": "bought from IKEA",
+    "room_id": "kitchen_1",
+    "explain": "a storage unit in a kitchen",
+    "type": "big",
+    "same_goal": "kitchen cabinet_0"
+  },
+  "oven_0": {
+    "base": "{\"center\": [305, 271], \"mass\": 46.0}",
+    "nearby_obj": "refrigerator_0|kitchen cabinet_0",
+    "object_desc": "inserted in the white cabinet",
+    "attr": null,
+    "room_id": "kitchen_1",
+    "explain": "a kitchen appliance used for baking and roasting",
+    "type": "small",
+    "same_goal": "oven_0"
+  },
+  "refrigerator_0": {
+    "base": "{\"center\": [305, 240], \"mass\": 56.5}",
+    "nearby_obj": "chair_0|table_0|kitchen cabinet_0",
+    "object_desc": "smooth steel surface",
+    "attr": "Galanz Mount freezer",
+    "room_id": "kitchen_1",
+    "explain": "an appliance to preserve food at low temperature",
+    "type": "small",
+    "same_goal": "refrigerator_0"
+  }
+}

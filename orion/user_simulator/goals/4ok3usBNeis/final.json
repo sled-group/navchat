@@ -1,0 +1,169 @@
+{
+  "room_info": {
+    "bedroom": "Alice|Bob",
+    "bathroom": "shared",
+    "living room": "shared"
+  },
+  "bed_0": {
+    "base": "{\"center\": [279, 316], \"mass\": 1422.5}",
+    "nearby_obj": "nightstand_0",
+    "object_desc": "with grey dotted white sheet|has a pillow",
+    "attr": "bought from IKEA",
+    "room_id": "bedroom_1",
+    "explain": "a furniture for sleeping with sheets and mattress.",
+    "type": "big"
+  },
+  "nightstand_0": {
+    "base": "{\"center\": [251, 313], \"mass\": 111.5}",
+    "nearby_obj": "bed_0",
+    "object_desc": "a brown side table with a drawer and open shelf",
+    "attr": "bought from IKEA",
+    "room_id": "bedroom_1",
+    "explain": "a table beside the bed",
+    "type": "small"
+  },
+  "cabinet_0": {
+    "base": "{\"center\": [196, 269], \"mass\": 27.5}",
+    "nearby_obj": "couch_0",
+    "object_desc": "a small short cabinet at the room corner",
+    "attr": null,
+    "room_id": "bedroom_2",
+    "explain": "a cupboard usually near sofa",
+    "type": "small"
+  },
+  "couch_0": {
+    "base": "{\"center\": [216, 286], \"mass\": 618.0}",
+    "nearby_obj": "cabinet_0",
+    "object_desc": "red long grid-patterned sofa",
+    "attr": null,
+    "room_id": "bedroom_2",
+    "explain": "a sofa with long upholstered seat and cushions",
+    "type": "big"
+  },
+  "toilet_0": {
+    "base": "{\"center\": [270, 188], \"mass\": 53.0}",
+    "nearby_obj": "washbasin_0",
+    "object_desc": "small white toilet with a toilet paper on it",
+    "attr": null,
+    "room_id": "bathroom_1",
+    "explain": "a plumbing fixture on the floor for human waste disposal",
+    "type": "small"
+  },
+  "towel_0": {
+    "base": "{\"center\": [270, 188], \"mass\": 3.5}",
+    "nearby_obj": "",
+    "object_desc": "blue towel hanging on the bar",
+    "attr": null,
+    "room_id": "bathroom_1",
+    "explain": "a piece of cloth used for drying things",
+    "type": "small"
+  },
+  "washbasin_0": {
+    "base": "{\"center\": [279, 196], \"mass\": 124.5}",
+    "nearby_obj": "toilet_0",
+    "object_desc": "white ceramic sink upon the counter",
+    "attr": null,
+    "room_id": "bathroom_1",
+    "explain": "sink or basin to wash hands",
+    "type": "small"
+  },
+  "chair_0": {
+    "base": "{\"center\": [373, 223], \"mass\": 126.5}",
+    "nearby_obj": "bench_0|rack_0",
+    "object_desc": "red wooden chair",
+    "attr": "bought from Maiden Home",
+    "room_id": "living room_1",
+    "explain": "a furniture for one person to sit on",
+    "type": "small"
+  },
+  "bench_0": {
+    "base": "{\"center\": [388, 202], \"mass\": 216.0}",
+    "nearby_obj": "shoe_0|chair_0",
+    "object_desc": "yellow mahogany bench",
+    "attr": "bought from West Elm",
+    "room_id": "living room_1",
+    "explain": "a long wooden seat for several people",
+    "type": "big"
+  },
+  "freezer_0": {
+    "base": "{\"center\": [287, 139], \"mass\": 227.0}",
+    "nearby_obj": "dresser_0|refrigerator_0|shelf_0",
+    "object_desc": "",
+    "attr": "Amazon Special",
+    "room_id": "living room_1",
+    "explain": "a container shorten than fridge to store frozen food",
+    "type": "big"
+  },
+  "refrigerator_0": {
+    "base": "{\"center\": [305, 119], \"mass\": 78.5}",
+    "nearby_obj": "freezer_0",
+    "object_desc": "white tall standing fridge",
+    "attr": null,
+    "room_id": "living room_1",
+    "explain": "fridge to store food and drinks",
+    "type": "big"
+  },
+  "dresser_0": {
+    "base": "{\"center\": [301, 170], \"mass\": 65.0}",
+    "nearby_obj": "freezer_0|shelf_0",
+    "object_desc": "with multiple drawers",
+    "attr": "",
+    "room_id": "living room_1",
+    "explain": "a large cabinet putting dresses",
+    "type": "big"
+  },
+  "shelf_0": {
+    "base": "{\"center\": [271, 154], \"mass\": 119.0}",
+    "nearby_obj": "freezer_0",
+    "object_desc": "board fixed on the wall",
+    "attr": null,
+    "room_id": "living room_1",
+    "explain": "a flat length of wood attached to the wall",
+    "type": "ambiguous"
+  },
+  "rack_0": {
+    "base": "{\"center\": [368, 238], \"mass\": 75.0}",
+    "nearby_obj": "chair_0",
+    "object_desc": "large tall shelf|hold audio players",
+    "attr": null,
+    "room_id": "living room_1",
+    "explain": "a shelf with bars to hold things",
+    "type": "ambiguous"
+  },
+  "rack_1": {
+    "base": "{\"center\": [376, 159], \"mass\": 65.5}",
+    "nearby_obj": "shoe_0",
+    "object_desc": "the shelf store detergents|near the shoes",
+    "attr": null,
+    "room_id": "living room_1",
+    "explain": "a shelf with bars to hold things",
+    "type": "ambiguous"
+  },
+  "speaker_0": {
+    "base": "{\"center\": [368, 238], \"mass\": 15.0}",
+    "nearby_obj": "rack_0",
+    "object_desc": "audio speaker on the shelf",
+    "attr": null,
+    "room_id": "living room_1",
+    "explain": "black device to display sound",
+    "type": "small"
+  },
+  "shoe_0": {
+    "base": "{\"center\": [384, 170], \"mass\": 110.5}",
+    "nearby_obj": "rack_1",
+    "object_desc": "shoes on the floor",
+    "attr": null,
+    "room_id": "living room_1",
+    "explain": "a covering for the foot",
+    "type": "small"
+  },
+  "laundry machine_0": {
+    "base": "{\"center\": [236, 213], \"mass\": 228.0}",
+    "nearby_obj": "",
+    "object_desc": "locate in lanudry room",
+    "attr": "bought from Walmart at 2020",
+    "room_id": null,
+    "explain": "washing machine",
+    "type": "big"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "room_info": {
+    "bathroom": "shared",
+    "kitchen": "David",
+    "living room": "shared",
+    "office room": "Alice",
+    "dining room": "shared"
+  },
+  "armchair_0": {
+    "base": "{\"center\": [238, 172], \"mass\": 360.5}",
+    "nearby_obj": "",
+    "object_desc": "made of real fur",
+    "attr": null,
+    "room_id": "dining room_1",
+    "explain": "a chair with armrests",
+    "type": "big",
+    "same_goal": "armchair_0|armchair_1"
+  },
+  "kitchen shelf_0": {
+    "base": "{\"center\": [383, 147], \"mass\": 343.0}",
+    "nearby_obj": "microwave_0",
+    "object_desc": "made of wood",
+    "attr": null,
+    "room_id": "kitchen_1",
+    "explain": "a surface holds dishes, utensils in kitchen",
+    "type": "big",
+    "same_goal": "kitchen shelf_0|kitchen shelf_1|kitchen shelf_2|kitchen shelf_3|kitchen shelf_4"
+  },
+  "oven_0": {
+    "base": "{\"center\": [360, 213], \"mass\": 54.0}",
+    "nearby_obj": "refrigerator_0",
+    "object_desc": "",
+    "attr": null,
+    "room_id": "kitchen_1",
+    "explain": "a kitchen appliance used for baking and roasting",
+    "type": "small",
+    "same_goal": "oven_0"
+  },
+  "bookshelf_0": {
+    "base": "{\"center\": [341, 301], \"mass\": 255.0}",
+    "nearby_obj": "computer_0|computer desk_0",
+    "object_desc": "sink cabinet_0",
+    "attr": "Alice's bookshelf",
+    "room_id": "office room_1",
+    "explain": "horizontal shelves for storing books",
+    "type": "big",
+    "same_goal": "bookshelf_0"
+  },
+  "printer_0": {
+    "base": "{\"center\": [294, 342], \"mass\": 83.5}",
+    "nearby_obj": "computer_0|computer desk_0",
+    "object_desc": "",
+    "attr": null,
+    "room_id": "office room_1",
+    "explain": "a device that produces document copies",
+    "type": "small",
+    "same_goal": "printer_0"
+  },
+  "computer desk_0": {
+    "base": "{\"center\": [307, 312], \"mass\": 414.0}",
+    "nearby_obj": "bookshelf_0|printer_0|computer_0",
+    "object_desc": "cabinet_1",
+    "attr": "bought from CB2",
+    "room_id": "office room_1",
+    "explain": "a desk for holding computer",
+    "type": "ambiguous",
+    "same_goal": "computer desk_0|computer chair_0"
+  },
+  "computer_0": {
+    "base": "{\"center\": [307, 316], \"mass\": 134.0}",
+    "nearby_obj": "bookshelf_0|printer_0|computer desk_0",
+    "object_desc": "",
+    "attr": null,
+    "room_id": "office room_1",
+    "explain": "an electronic device with monitor",
+    "type": "big",
+    "same_goal": "computer_0"
+  },
+  "table_0": {
+    "base": "{\"center\": [478, 315], \"mass\": 837.0}",
+    "nearby_obj": "",
+    "object_desc": "",
+    "attr": "bought from Maiden Home this year",
+    "room_id": "living room_1",
+    "explain": "a flat surface supported by legs",
+    "type": "ambiguous",
+    "same_goal": "table_2|table_0"
+  },
+  "clock_0": {
+    "base": "{\"center\": [425, 319], \"mass\": 25.5}",
+    "nearby_obj": "",
+    "object_desc": "hanging on the wall",
+    "attr": null,
+    "room_id": "living room_1",
+    "explain": "an cicle instrument to display time",
+    "type": "small",
+    "same_goal": "clock_0"
+  },
+  "vase_0": {
+    "base": "{\"center\": [490, 358], \"mass\": 62.5}",
+    "nearby_obj": "",
+    "object_desc": "flower vase",
+    "attr": null,
+    "room_id": "living room_1",
+    "explain": "a decorative container for flowers",
+    "type": "small",
+    "same_goal": "vase_0|vase_1|flower vase_0"
+  },
+  "fireplace_0": {
+    "base": "{\"center\": [541, 256], \"mass\": 561.5}",
+    "nearby_obj": "plant_0|circular sofa_0",
+    "object_desc": "",
+    "attr": "bought from Pottery Barn at 1990",
+    "room_id": "living room_1",
+    "explain": "a structure with fire for heating",
+    "type": "big",
+    "same_goal": "fireplace_0"
+  }
+}

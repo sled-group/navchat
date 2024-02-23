@@ -1,0 +1,12 @@
+[submodule "third_party/habitat-lab"]
+	path = third_party/habitat-lab
+	url = https://github.com/facebookresearch/habitat-lab.git
+[submodule "third_party/Grounded-Segment-Anything"]
+	path = third_party/Grounded-Segment-Anything
+	url = https://github.com/IDEA-Research/Grounded-Segment-Anything.git
+[submodule "orion/perception/detector/gradcam"]
+	path = orion/perception/detector/gradcam
+	url = https://github.com/hila-chefer/Transformer-MM-Explainability
+[submodule "orion/perception/extractor/lseg_module"]
+	path = orion/perception/extractor/lseg_module
+	url = https://github.com/YinpeiDai/lseg-module.git

@@ -1,0 +1,107 @@
+{
+  "room_info": {
+    "bathroom": "shared",
+    "kitchen": "shared",
+    "living room": "shared"
+  },
+  "chair_0": {
+    "base": "{\"center\": [412, 288], \"mass\": 242.0}",
+    "nearby_obj": "lamp_0|table_0",
+    "object_desc": "around chairs and lamp",
+    "attr": "bought from Castlery 20 years ago",
+    "room_id": "living room_1",
+    "explain": "a furniture seat with backrest and legs for one person",
+    "type": "big",
+    "same_goal": "chair_0|chair_1|chair_2"
+  },
+  "lamp_0": {
+    "base": "{\"center\": [443, 306], \"mass\": 43.5}",
+    "nearby_obj": "chair_0|table_0",
+    "object_desc": "lighting the dining area",
+    "attr": "BrentWood white lamp",
+    "room_id": "living room_1",
+    "explain": "a light source with shade",
+    "type": "small",
+    "same_goal": "lamp_0|lamp_1|lamp_2"
+  },
+  "tv_0": {
+    "base": "{\"center\": [430, 206], \"mass\": 71.5}",
+    "nearby_obj": "side table_0|recliner_0",
+    "object_desc": "hanging on the wall",
+    "attr": null,
+    "room_id": "living room_1",
+    "explain": "a black monitor for television broadcasts.",
+    "type": "small",
+    "same_goal": "tv_0"
+  },
+  "lounge chair_0": {
+    "base": "{\"center\": [449, 234], \"mass\": 335.5}",
+    "nearby_obj": "side table_1|side table_0",
+    "object_desc": "mesh weaved C-shape|near the window",
+    "attr": "bought from Walmart",
+    "room_id": "living room_1",
+    "explain": "a chair designed for relaxation or lounging.",
+    "type": "big",
+    "same_goal": "lounge chair_0"
+  },
+  "coffee table_0": {
+    "base": "{\"center\": [406, 233], \"mass\": 376.5}",
+    "nearby_obj": "lounge chair_0|side table_0|recliner_0|l-shaped sofa_0",
+    "object_desc": "surrounded by a sofa|low to the ground",
+    "attr": null,
+    "room_id": "living room_1",
+    "explain": "a low table placed around sofa",
+    "type": "big",
+    "same_goal": "coffee table_0"
+  },
+  "recliner_0": {
+    "base": "{\"center\": [417, 205], \"mass\": 271.5}",
+    "nearby_obj": "coffee table_0|l-shaped sofa_0|side table_0",
+    "object_desc": "recliner chair with cusions",
+    "attr": "bought from Maiden Home this year",
+    "room_id": "living room_1",
+    "explain": "a lying chair that can be adjusted to a reclining position",
+    "type": "big",
+    "same_goal": "recliner_0"
+  },
+  "kitchen cabinet_0": {
+    "base": "{\"center\": [327, 348], \"mass\": 261.0}",
+    "nearby_obj": "kitchen counter_0",
+    "object_desc": "",
+    "attr": "bought from Pottery",
+    "room_id": "kitchen_1",
+    "explain": "a storage unit in a kitchen",
+    "type": "big",
+    "same_goal": "kitchen cabinet_0|kitchen shelf_0"
+  },
+  "toilet_0": {
+    "base": "{\"center\": [356, 222], \"mass\": 55.5}",
+    "nearby_obj": "bathroom counter_0",
+    "object_desc": "",
+    "attr": "bought from Wayfair",
+    "room_id": "bathroom_1",
+    "explain": "a plumbing fixture on the floor for human waste disposal",
+    "type": "small",
+    "same_goal": "toilet_0"
+  },
+  "bathroom counter_0": {
+    "base": "{\"center\": [354, 217], \"mass\": 15.0}",
+    "nearby_obj": "toilet_0",
+    "object_desc": "a shelf decorated with a mirror",
+    "attr": null,
+    "room_id": "bathroom_1",
+    "explain": "a place to put toothbrush and toothpaste",
+    "type": "small",
+    "same_goal": "bathroom counter_0"
+  },
+  "clock_0": {
+    "base": "{\"center\": [375, 327], \"mass\": 20.5}",
+    "nearby_obj": "",
+    "object_desc": "stored in the room corner",
+    "attr": "old-fashioned clock",
+    "room_id": null,
+    "explain": "a round device that shows the time",
+    "type": "small",
+    "same_goal": "clock_0"
+  }
+}

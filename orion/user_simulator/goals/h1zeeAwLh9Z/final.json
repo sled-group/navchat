@@ -1,0 +1,97 @@
+{
+  "room_info": {
+    "bedroom": "Alice|Bob",
+    "bathroom": "Alice|Bob",
+    "living room": "shared"
+  },
+  "bed_0": {
+    "base": "{\"center\": [316, 270], \"mass\": 1167.5}",
+    "nearby_obj": "bedside lamp_0|nightstand_0|armchair_0",
+    "object_desc": "covered with white thin sheet|face the stone wall",
+    "attr": null,
+    "room_id": "bedroom_1",
+    "explain": "a furniture for sleeping with sheets and mattress.",
+    "type": "ambiguous",
+    "same_goal": "bed_0"
+  },
+  "nightstand_0": {
+    "base": "{\"center\": [305, 238], \"mass\": 146.0}",
+    "nearby_obj": "bed_0",
+    "object_desc": "yellow table with three drawers",
+    "attr": null,
+    "room_id": "bedroom_1",
+    "explain": "a small table beside a bed",
+    "type": "small",
+    "same_goal": "nightstand_0|nightstand_1"
+  },
+  "bedside lamp_0": {
+    "base": "{\"center\": [283, 281], \"mass\": 76.5}",
+    "nearby_obj": "armchair_0|bed_0",
+    "object_desc": "",
+    "attr": "modern style",
+    "room_id": "bedroom_1",
+    "explain": "a lamp placed on a side table or nightstand next to a bed.",
+    "type": "ambiguous",
+    "same_goal": "bedside lamp_0"
+  },
+  "armchair_0": {
+    "base": "{\"center\": [284, 308], \"mass\": 87.0}",
+    "nearby_obj": "bedside lamp_0|nightstand_0",
+    "object_desc": "white cushion with wooden legs|face the bed",
+    "attr": null,
+    "room_id": "bedroom_1",
+    "explain": "a chair with armrests",
+    "type": "small",
+    "same_goal": "armchair_0"
+  },
+  "bed_1": {
+    "base": "{\"center\": [283, 483], \"mass\": 1014.5}",
+    "nearby_obj": "bedside lamp_1",
+    "object_desc": "bed in the attic",
+    "attr": null,
+    "room_id": "bedroom_2",
+    "explain": "a furniture for sleeping with sheets and mattress.",
+    "type": "ambiguous",
+    "same_goal": "bed_1"
+  },
+  "bedside lamp_1": {
+    "base": "{\"center\": [270, 455], \"mass\": 26.5}",
+    "nearby_obj": "bed_1",
+    "object_desc": "",
+    "attr": "old fashioned",
+    "room_id": "bedroom_2",
+    "explain": "a lamp placed on a side table or nightstand next to a bed.",
+    "type": "ambiguous",
+    "same_goal": "bedside lamp_1"
+  },
+  "couch_0": {
+    "base": "{\"center\": [461, 303], \"mass\": 687.0}",
+    "nearby_obj": "side table_0|table lamp_0",
+    "object_desc": "",
+    "attr": "bought from IKEA",
+    "room_id": "living room_1",
+    "explain": "a sofa with long upholstered seat for multiple people",
+    "type": "big",
+    "same_goal": "couch_0"
+  },
+  "side table_0": {
+    "base": "{\"center\": [457, 262], \"mass\": 36.5}",
+    "nearby_obj": "couch_0",
+    "object_desc": "",
+    "attr": "furinno 3-Tier",
+    "room_id": "living room_1",
+    "explain": "a small table placed beside a sofa or chair",
+    "type": "small",
+    "same_goal": "side table_0"
+  },
+  "table lamp_0": {
+    "base": "{\"center\": [458, 325], \"mass\": 27.5}",
+    "nearby_obj": "couch_0",
+    "object_desc": "with dark light",
+    "attr": "Amber Brown mission style",
+    "room_id": "living room_1",
+    "explain": "a lamp placed on a table",
+    "type": "ambiguous",
+    "same_goal": "table lamp_0"
+  }
+}
