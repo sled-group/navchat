@@ -6,7 +6,7 @@
 	url = https://github.com/IDEA-Research/Grounded-Segment-Anything.git
 [submodule "orion/perception/detector/gradcam"]
 	path = orion/perception/detector/gradcam
-	url = https://github.com/hila-chefer/Transformer-MM-Explainability
+	url = https://github.com/hila-chefer/Transformer-MM-Explainability.git
 [submodule "orion/perception/extractor/lseg_module"]
 	path = orion/perception/extractor/lseg_module
 	url = https://github.com/YinpeiDai/lseg-module.git
