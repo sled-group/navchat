@@ -1,5 +1,7 @@
 # ORION Framework for Open-World Interactive Personalized Robot Navigation
-We propsoe a general framework for Open-woRld Interactive persOnalized Navigation (ORION) that uses Large Language Models (LLMs) to make sequential decisions to manipulate different modules. 
+Paper: [Think, Act, and Ask: Open-World Interactive Personalized RobotNavigation](https://arxiv.org/pdf/2310.07968.pdf)
+
+We propsoe a general framework for Open-woRld Interactive persOnalized Navigation (ORION) that uses Large Language Models (LLMs) to make sequential decisions to manipulate different modules, so the robot can search, detect and navigate in the environment and talk with the user in natural language.
 
 ![framework](./framework.png)
 
