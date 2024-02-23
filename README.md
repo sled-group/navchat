@@ -57,7 +57,7 @@ python setup.py develop
 ```
 
 ## Data
-The structure of the data folder should be as follows:
+Build a `data` directory in the project main directory. The structure of the data folder should be as follows:
 ```
 .
 ├── datasets            # soft link to habitat-lab/data/
