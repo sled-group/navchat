@@ -50,7 +50,7 @@ python -m pip install -e segment_anything
 python -m pip install -e GroundingDINO
 ```
 
-4. Finally, install openai API and the project itself
+4. Finally, install the project itself
 ```
 cd <project_main_dir>
 python setup.py develop
