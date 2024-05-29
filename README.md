@@ -142,3 +142,6 @@ python setup.py install
   year={2024}
 }
 ```
+
+# Acknowledgement
+This work is supported by Amazon Consumer Robotics, NSF IIS-1949634, NSF SES-2128623, and has benefited from the Microsoft Accelerate Foundation Models Research (AFMR) grant program.
