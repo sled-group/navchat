@@ -14,6 +14,8 @@ We propsoe a general framework for Open-woRld Interactive persOnalized Navigatio
 - [Experiment](#experiment)
 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DzgK_4aOjvE?si=Z4LAyifbL8TRkX6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Installation
 
 Git clone the project and cd to the project main directory.
