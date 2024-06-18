@@ -16,12 +16,7 @@ We propsoe a general framework for Open-woRld Interactive persOnalized Navigatio
 
 ### Demo: ORION interacts with human in a household scene
 
-
-<video controls>
-  <source src="" type="video/mp4">
-</video>
-
-[](./assets/ShoesOnFloor.mp4)
+[video](./assets/ShoesOnFloor.mp4)
 
 
 ### Demo: ORION interacts with a user simulator
