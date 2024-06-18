@@ -84,6 +84,8 @@ We use (Habitat HM3D dataset)[https://github.com/matterport/habitat-matterport-3
 After downloading the HM3D v0.2, add soft link to the `data/scene_datasets/hm3d_v0.2` following the [data practice](https://github.com/facebookresearch/habitat-lab/blob/main/DATASETS.md) of habiat-lab.
 Downlaod objectnav_hm3d_v2 dataset and save it to  `data/datasets/objectnav_hm3d_v2`.
 
+In our experiment, we use `4ok3usBNeis, MHPLjHsuG27, mL8ThkuaVTM, QaLdnwvtxbs, TEEsavR23oF, qyAac8rV8Zk, h1zeeAwLh9Z, cvZr5TUy5C5, LT9Jq6dN3Ea, y9hTuugGdiq` 10 scenes from the val set.
+
 ### Pre-trained Model Checkpoints
 1. Download SAM [ckpt](https://github.com/IDEA-Research/Grounded-Segment-Anything/tree/main/segment_anything#model-checkpoints) `sam_vit_h_4b8939.pth` to `data/pretrained_ckpts/sam_vit_h_4b8939.pth`.
 
