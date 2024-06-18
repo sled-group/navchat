@@ -3,7 +3,38 @@ Paper: [Think, Act, and Ask: Open-World Interactive Personalized Robot Navigatio
 
 We propsoe a general framework for Open-woRld Interactive persOnalized Navigation (ORION) that uses Large Language Models (LLMs) to make sequential decisions to manipulate different modules, so the robot can search, detect and navigate in the environment and talk with the user in natural language.
 
-![framework](./framework.png)
+
+<div style="text-align: center;">
+  <img src="./assets/framework.png" alt="Local Image" width="500" height="240">
+</div>
+
+## Contents
+- [Installation](#installation)
+- [Data](#data)
+- [Experiment](#experiment)
+
+
+### Demo: ORION interacts with human in a household scene
+
+
+<video controls>
+  <source src="./assets/ShoesOnFloor.mp4" type="video/mp4">
+</video>
+
+### Demo: ORION interacts with a user simulator
+
+
+<video controls>
+  <source src="./assets/UserSimulator.mp4" type="video/mp4">
+</video>
+
+### Demo: ORION contains spatial reasoning ability
+
+<video  controls>
+  <source src="./assets/go_to_the_other_side.mp4" type="video/mp4">
+</video>
+
+
 
 ## Installation
 
@@ -93,11 +124,8 @@ In our experiment, we use `4ok3usBNeis, MHPLjHsuG27, mL8ThkuaVTM, QaLdnwvtxbs, T
 
 3. Download Lseg [ckpt](https://github.com/isl-org/lang-seg/blob/main/requirements.txt#download-demo-model) to `data/pretrained_ckpts/lseg_demo_e200.ckpt`.
 
-## ChatGPT API key
-We use OpenAI's ChatGPT for the chatbot, using either Azure or OpenAI's API.
-Please edit the `orion/config/chatgpt_config.py` with your own api keys.
 
-## Run
+## Experiment
 1. `cd <project_main_dir>`. All python scripts should be run in the project main directory.
 2. `python scripts/collect_scene_fbe.py --scene_id==<scene_id>` to collect rgbd frames in habitat scenes using frotier-based exploration. You can set args to decide which scenes to collect. Optional: use `scripts/create_video.py` to create video from the collected frames.
 3. `python scripts/build_vlmap.py --scene_id=<scene_id> --feature_type=lseg` to build vlmap for each scene. It takes 30 min for LSeg and 60min for ConceptFusion to build one scene (around 500 frames).
@@ -110,9 +138,13 @@ Please edit the `orion/config/chatgpt_config.py` with your own api keys.
 
  Make sure to set suitable arguments and the chatgpt config for both the user simulator and the agent.
 
+ ### ChatGPT API key
+We use OpenAI's ChatGPT for the chatbot, using either Azure or OpenAI's API.
+Please edit the `orion/config/chatgpt_config.py` with your own api keys.
 
 
-## Demo
+
+### Demo
 1. To test the chagpt api, you can try to run `python demos/play_chatgpt_api.py` to talk with the chatbot. Need to set your openai api key in `orion/config/chatgpt_config.py`.
 2. To test the LSeg model, you can run `python demos/play_lseg.py` to see the LSeg model in action.
 3. To test the GroundingSAM model, you can run `python demos/play_groundingSAM.py` to see the GroundingSAM model in action.
