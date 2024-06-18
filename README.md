@@ -18,8 +18,11 @@ We propsoe a general framework for Open-woRld Interactive persOnalized Navigatio
 
 
 <video controls>
-  <source src="./assets/ShoesOnFloor.mp4" type="video/mp4">
+  <source src="" type="video/mp4">
 </video>
+
+[](./assets/ShoesOnFloor.mp4)
+
 
 ### Demo: ORION interacts with a user simulator
 
