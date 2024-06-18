@@ -14,6 +14,19 @@ We propsoe a general framework for Open-woRld Interactive persOnalized Navigatio
 - [Experiment](#experiment)
 
 
+
+### Demo: ORION interacts with human in a household scene
+[![YouTube Video](assets/find_shoes.png)](https://www.youtube.com/watch?v=DzgK_4aOjvE)
+
+### Demo: ORION interacts with a user simulator
+
+[![YouTube Video](assets/user_sim.png)](https://www.youtube.com/watch?v=H2DWe2LQjyo)
+
+
+### Demo: ORION contains spatial reasoning ability
+[![YouTube Video](assets/spatial_reason.png)](https://www.youtube.com/watch?v=DkURvbGSj5g)
+
+
 ## Installation
 
 Git clone the project and cd to the project main directory.
